@@ -1,4 +1,2 @@
 streamlit
 pandas
-streamlit_authenticator
-streamlit_gsheets
