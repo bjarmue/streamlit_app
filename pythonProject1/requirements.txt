@@ -1,6 +1,5 @@
 streamlit
 pandas
 streamlit_authenticator
-pickle
 pathlib
 streamlit_gsheets
