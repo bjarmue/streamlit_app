@@ -7,7 +7,7 @@ def username():
     number=st.session_state["number"]
 
     #Zugriff auf Sheets
-    conn= st.connection(name="google",spreadsheet=url,type=GSheetsConnection)
+    conn= st.experimental_connection(spreadsheet=url,type=GSheetsConnection)
 
     #Zugriff auf den Namen des User in Abhängigkeit seiner Nummer
     personal_name= conn.read(worksheet="Tabellenblatt1",usecols=[0,1],ttl=1)
