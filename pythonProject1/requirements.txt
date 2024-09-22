@@ -49,32 +49,15 @@ numpy==2.0.0
 oauthlib==3.2.2
 packaging==24.0
 pandas==2.2.2
-pefile==2023.2.7
-pillow==10.2.0
-platformdirs==4.2.0
-proto-plus==1.23.0
-protobuf==4.25.3
 
-pyarrow==16.1.0
-pyasn1==0.5.1
-pyasn1-modules==0.3.0
-pycparser==2.22
-pydeck==0.9.1
-pygame==2.5.2
-Pygments==2.17.2
 pyinstaller==6.6.0
 pyinstaller-hooks-contrib==2024.5
-PyJWT==2.8.0
-pyparsing==3.1.2
-pypiwin32==223
+
 
 
 
 requests==2.31.0
 requests-oauthlib==2.0.0
-
-sql_metadata==2.12.0
-sqlparse==0.5.0
 st-gsheets-connection==0.0.4
 streamlit==1.36.0
 streamlit-authenticator==0.3.2
@@ -82,15 +65,5 @@ streamlit-option-menu==0.3.13
 StrEnum==0.4.15
 tenacity==8.5.0
 toml==0.10.2
-toolz==0.12.1
-tornado==6.4.1
-typing_extensions==4.12.2
-tzdata==2024.1
-uritemplate==4.1.1
-urllib3==2.2.1
-validators==0.32.0
 virtualenv==20.25.1
-watchdog==4.0.1
-whichcraft==0.6.1
-zope.event==5.0
-zope.interface==6.3
+
