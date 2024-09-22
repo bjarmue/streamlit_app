@@ -14,9 +14,7 @@ google-auth-oauthlib==1.2.0
 googleapis-common-protos==1.63.0
 greenlet==3.0.3
 gspread==5.12.4
-gspread-dataframe==4.0.0
-gspread-formatting==1.2.0
-gspread-pandas==3.3.0
+
 httplib2==0.22.0
 idna==3.6
 Jinja2==3.1.4
