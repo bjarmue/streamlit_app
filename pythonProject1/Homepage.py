@@ -8,7 +8,9 @@ from menu import menu
 st.set_page_config(layout="wide")
 
 authenticator = stauth.Authenticate(data(), "WNW_APP","abcdefg",30)
-number, authentication_status, name = authenticator.login("main")
+number = authenticator.login("main")
+authentication_status = authenticator.login("main")
+name = authenticator.login("main")
 
 
 if authentication_status == False:
